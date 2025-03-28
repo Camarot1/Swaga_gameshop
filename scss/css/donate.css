@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.logo__name {
+  font-size: 50px;
+  color: white;
+  padding: 27px 0;
+}
+
+.footer__container {
+  padding: 0 0 0 120px;
+  background-color: #282828;
+}
+.footer__container * {
+  color: white;
+}
+.footer__container .footer__info {
+  padding-top: 52px;
+  display: flex;
+  flex-direction: row;
+  gap: 178px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+}
+.footer__list .footer__el {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+}
+.footer__list .footer__el .el__text {
+  font-size: 35px;
+}
+
+.title {
+  font-size: 45px;
+  padding-bottom: 43px;
+}
+
+.header .header__container {
+  display: flex;
+  align-items: center;
+  background-color: #3533A1;
+  padding: 0 0 0 120px;
+}
+.header .header__container .header__name {
+  font-size: 50px;
+  color: white;
+  margin-right: 77px;
+  padding: 27px 0;
+}
+.header .header__container .header__navigation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header .header__container .header__navigation * {
+  font-size: 25px;
+}
+.header .header__container .header__navigation .navigation__search {
+  width: 538px;
+}
+.header .header__container .header__navigation .navigation__button {
+  width: 260px;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 12px 25px;
+  color: white;
+}
+.header .header__container .header__navigation .big {
+  width: 285px;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.main__container {
+  background-color: #1B1B1B;
+}
+.main__container * {
+  color: white;
+}
+.main__container .main__top {
+  display: flex;
+  padding-top: 98px;
+  padding-left: 270px;
+  margin-bottom: 80px;
+}
+.main__container .main__top .top__img {
+  margin-right: 160px;
+}
+.main__container .main__top .top__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__container .main__top .top__block .block__title {
+  font-size: 45px;
+  max-height: 39px;
+  margin-bottom: 68px;
+}
+.main__container .main__top .top__block .block__text {
+  font-size: 35px;
+  max-height: 39px;
+  padding-bottom: 46px;
+}
+.main__container .main__top .top__block .block__button {
+  display: flex;
+  gap: 49px;
+}
+.main__container .main__top .top__block .block__button .button {
+  font-size: 35px;
+  padding: 17px 61px;
+  background-color: #3533A1;
+  border-radius: 5px;
+}
+.main__container .bottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main__container .bottom .main__bottom {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  gap: 280px;
+}
+.main__container .bottom .main__bottom .bottom__info .info__button {
+  display: flex;
+  background-color: #282680;
+  padding: 33px 90px 33px 50px;
+  gap: 120px;
+}
+.main__container .bottom .main__bottom .bottom__info .info__button .button__text {
+  font-size: 35px;
+}
+.main__container .bottom .main__bottom .bottom__info .info__drop .drop__instruction, .main__container .bottom .main__bottom .bottom__info .info__drop .drop__faq {
+  display: flex;
+  gap: 28px;
+  flex-direction: column;
+}
+.main__container .bottom .main__bottom .bottom__info .info__drop .drop__instruction .text, .main__container .bottom .main__bottom .bottom__info .info__drop .drop__faq .text {
+  font-size: 30px;
+  max-width: 560px;
+}
+.main__container .bottom .main__bottom .bottom__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+}
+.main__container .bottom .main__bottom .bottom__form .block {
+  background-color: #3533A1;
+  width: 820px;
+}
+.main__container .bottom .main__bottom .bottom__form .block input {
+  background-color: #3533A1;
+  border: none;
+}
+.main__container .bottom .main__bottom .bottom__form .form__money {
+  padding: 6px 0 28px 39px;
+  width: 781px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__money .money__title {
+  font-size: 20px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__money .input__money {
+  font-size: 35px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__login {
+  width: 760px;
+  padding: 38px 15px 38px 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.main__container .bottom .main__bottom .bottom__form .form__login .input__login {
+  font-size: 35px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__login .login__button {
+  font-size: 35px;
+  text-decoration: underline;
+}
+.main__container .bottom .main__bottom .bottom__form .form__promo {
+  padding: 35px 0 35px 39px;
+  width: 781px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__promo .input__promo {
+  font-size: 35px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__end {
+  padding: 30px 0 30px 39px;
+  width: 781px;
+  background-color: #282680;
+}
+.main__container .bottom .main__bottom .bottom__form .form__end .end__title {
+  font-size: 35px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__end .end__donate {
+  font-size: 35px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1B9C10;
+  padding: 30px 0;
+  font-size: 35px;
+}
+
+.hidden {
+  display: none;
+}

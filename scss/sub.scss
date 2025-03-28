@@ -1,0 +1,127 @@
+@import './footer.scss', './header.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+li {
+    list-style-type: none;
+}
+
+button {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.main__container {
+    background-color: #1B1B1B;
+    padding-left: 130px;
+    display: flex;
+    flex-direction: column;
+    * {
+        color: white;
+    }
+
+    .main__back {
+        padding: 43px 0;
+        display: flex;
+        align-items: center;
+        gap: 43px;
+
+        .back__title {
+            font-size: 35px;
+        }
+    }
+    .main__info{
+        display: flex;
+        margin-bottom: 92px;
+        .info__content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .content__title{
+                font-size:45px;
+                margin-bottom:36px;
+            }
+            .content__conditions{
+                display: flex;
+                flex-wrap:wrap;
+                max-width: 960px;
+                gap:37px;
+                background-color: #3533A1;
+                padding:48px 0 48px 57px;
+                margin-left: 160px;
+                .condition{
+                    font-size:25px;
+                    padding: 23px 29px;
+                    background-color: #D9D9D9;
+                    color:black;
+                }
+            }
+        }
+    }
+    .main__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:52px;
+        margin-bottom: 70px;
+        .content__price{
+            background-color: #3533A1;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1101px;
+            padding: 51px 0 0 51px;
+            .price__block{
+                border:1px solid black;
+                display: flex;
+                align-items: center;
+                border-radius: 5px;
+                gap: 29px;
+                padding: 7px 53px 6px 17px;
+                margin-left:51px;
+                margin-bottom: 40px;
+                .block__money{
+                    display: flex;
+                    gap:15px;
+                    flex-direction: column;
+                }
+            }
+        }
+        .content__button{
+            font-size:35px;
+            padding: 18px 206px;
+            background-color: #1B9C10;
+        }
+        .content__instructions{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 28px;
+            background-color: #3533A1;
+            padding: 27px 200px;
+            *{
+                text-align: start;
+            }
+            .instruction__title{
+                font-size:35px;
+            }
+            .instruction__text{
+                font-size: 30px;
+            }
+        }
+    }
+}

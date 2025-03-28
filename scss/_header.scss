@@ -1,0 +1,35 @@
+.header{
+    .header__container{
+        display: flex;
+        align-items: center;
+        background-color: #3533A1;
+        padding: 0 0 0 120px;
+        .header__name{
+            font-size: 50px;
+            color: white;
+            margin-right: 77px;
+            padding: 27px 0;
+        }
+        .header__navigation{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            *{
+                font-size:25px; 
+            }
+            .navigation__search{
+                width: 538px;
+            }
+            .navigation__button{
+                width: 260px;
+                border:1px solid black;
+                border-radius: 7px;
+                padding:12px 25px;
+                color: white;
+            }
+            .big{
+                width:285px;
+            }
+        }
+    }
+}

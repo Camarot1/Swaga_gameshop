@@ -1,0 +1,170 @@
+@import './footer.scss', './header.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+li {
+    list-style-type: none;
+}
+
+button {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.main__container{
+    background-color: #1B1B1B;
+    padding-left: 130px;
+    *{
+        color:white;
+    }
+    .main__back{
+        padding: 43px 0 ;
+        display: flex;
+        align-items: center;
+        gap: 43px;
+        .back__title{
+            font-size:35px;
+        }
+    }
+    .main__content{
+        .content__galery{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .galery__left{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 40px;
+                .galery__left-select{
+                    background-color: #3533A1;
+                    font-size: 30px;
+                    border-radius: 5px;
+                }
+                .galery__left-rewiews{
+                    font-size: 23px;
+                }
+            }
+            .galery__right{
+                padding-left: 15px;
+                .galery__right-title{
+                    padding: 0 0 48px 160px;
+                    font-size:40px;
+                }
+                .galery__right-tags{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 22px;
+                    padding-bottom: 93px;
+                    .tag{
+                        font-size: 35px;
+                        padding: 9px 67px;
+                        background-color: #3533A1;
+                        border-radius: 5px;
+                    }
+                }
+                .galery__right-slider{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap: 20px;
+                    .slider__arrow{
+                        rotate: (180deg);
+                    }
+                }
+                .galery__right-choose{
+                    margin-top: 90px;
+                    background-color: #3533A1;
+                    width: 820px;
+                    padding-left: 36px;
+                    .choose__title{
+                        font-size:35px;
+                        padding: 17px 0 9px 0;
+                    }
+                    .choose__select{
+                        width: 518px;
+                        height: 72px;
+                    }
+                    .choose__payment{
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        border-radius: 5px;
+                        .payment__money{
+                            font-size:35px
+                        }
+                        .payment__button{
+                            background-color: #1B9C10;
+                            padding: 19px 65px;
+                            margin: 18px 20px 22px 0;
+                            font-size: 35px;
+                        }
+                    }
+                }
+            }
+        }
+        .content__text{
+            display: flex;
+            flex-direction: column;
+            gap: 55px;
+            .content__text-first{
+                margin-top: 53px;
+                display: flex;
+                .first__title{
+                    font-size:32px;
+                    margin-right: 11px;
+                }
+                .first__sys{
+                    display: flex;
+                    gap: 81px;
+                    .width{
+                        max-width: 479px;
+                    }
+                    *{
+                        font-size:25px;
+                    }
+                }
+            }
+            .content__text-second{
+                display: flex;
+                flex-direction: row;
+                .second__title{
+                    font-size:32px;
+                    margin: 0 125px 0 104px;
+                }
+                .second__text{
+                    font-size:25px;
+                    max-width: 625px;
+                }
+            }
+            .content__text-third{
+                display: flex;
+                flex-direction: row;
+                .third__title{
+                    font-size:32px;
+                    padding-right: 30px;
+                }
+                .third__text{
+                    max-width: 647px;
+                    font-size:25px;
+                    margin-bottom: 96px;
+                }
+            }
+        }
+    }
+}

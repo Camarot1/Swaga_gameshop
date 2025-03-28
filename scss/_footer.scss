@@ -1,0 +1,36 @@
+.logo__name {
+    font-size: 50px;
+    color: white;
+    padding: 27px 0;
+}
+.footer__container{
+    padding: 0 0 0 120px;
+    background-color: #282828;
+    *{
+        color:white;
+    }
+    .footer__info{
+        padding-top: 52px;
+        display: flex;
+        flex-direction: row;
+        gap: 178px;
+        
+    }
+}
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    .footer__el{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 12px;
+        .el__text{
+            font-size: 35px;
+        }
+    }
+}
+.title{
+    font-size: 45px;
+    padding-bottom: 43px;
+}
