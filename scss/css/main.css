@@ -71,6 +71,9 @@
 .header .header__container .header__navigation .big {
   width: 285px;
 }
+.header .header__container .header__navigation .big2 {
+  width: 320px;
+}
 
 li {
   list-style-type: none;
@@ -275,4 +278,4 @@ a {
 .swiper .swiper-wrapper {
   max-width: 1920px;
   height: 100%;
-}
+}/*# sourceMappingURL=main.css.map */

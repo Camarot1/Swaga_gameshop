@@ -71,6 +71,9 @@
 .header .header__container .header__navigation .big {
   width: 285px;
 }
+.header .header__container .header__navigation .big2 {
+  width: 320px;
+}
 
 li {
   list-style-type: none;
@@ -238,4 +241,4 @@ a {
   max-width: 647px;
   font-size: 25px;
   margin-bottom: 96px;
-}
+}/*# sourceMappingURL=item.css.map */

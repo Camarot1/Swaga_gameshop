@@ -71,6 +71,9 @@
 .header .header__container .header__navigation .big {
   width: 285px;
 }
+.header .header__container .header__navigation .big2 {
+  width: 320px;
+}
 
 li {
   list-style-type: none;
@@ -233,4 +236,4 @@ a {
 
 .hidden {
   display: none;
-}
+}/*# sourceMappingURL=donate.css.map */

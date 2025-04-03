@@ -71,6 +71,9 @@
 .header .header__container .header__navigation .big {
   width: 285px;
 }
+.header .header__container .header__navigation .big2 {
+  width: 320px;
+}
 
 li {
   list-style-type: none;
@@ -214,4 +217,4 @@ a {
 .main__container .bottom .position__block .block__row .row__item .item__price .price-old {
   font-size: 28px;
   color: #B0B0B0;
-}
+}/*# sourceMappingURL=catalog.css.map */
