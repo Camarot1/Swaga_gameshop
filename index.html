@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./scss/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Document</title>
 </head>
 
@@ -26,7 +27,32 @@
         <div class="main__container container">
             <div class="main__slider">
                 <p class="slider__title">Самые популярные товары</p>
-                <div class="slider__img"></div>
+                <div class="swiper mySwiper swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/mainSwiper-img.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/mainSwiper-img.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/mainSwiper-img.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/mainSwiper-img.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/mainSwiper-img.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/mainSwiper-img.svg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/mainSwiper-img.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
             <div class="main__convert">
                 <img class="convert__img" src="./img/steampopol.svg" alt="">
@@ -155,5 +181,19 @@
         </div>
     </footer>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    let swiper = new Swiper(".swiper-container",{
+    spaceBetween: 26,
+    speed:400,
+    slidesPerView:4.5,
+    autoplay:{
+        delay:1500,
+    },
+    pagination:{
+        el: ".swiper-pagination",
+        clickable:true,
+    },
+})
+</script>
 </html>

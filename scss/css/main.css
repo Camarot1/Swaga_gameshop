@@ -103,6 +103,14 @@ a {
 .main__container p {
   color: white;
 }
+.main__container .main__slider {
+  display: flex;
+  flex-direction: column;
+}
+.main__container .main__slider .slider__title {
+  align-self: center;
+  padding: 40px 0;
+}
 .main__container .main__slider p {
   font-size: 50px;
 }
@@ -259,4 +267,12 @@ a {
   margin-top: 60px;
   max-width: 540px;
   font-size: 35px;
+}
+
+.swiper {
+  margin-bottom: 72px;
+}
+.swiper .swiper-wrapper {
+  max-width: 1920px;
+  height: 100%;
 }

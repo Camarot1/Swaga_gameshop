@@ -34,6 +34,14 @@ a {
     background-color: #1B1B1B;
 
     .main__slider {
+        display: flex;
+        flex-direction: column;
+        
+        .slider__title {
+            align-self: center;
+            padding: 40px 0;
+        }
+
         p {
             font-size: 50px;
         }
@@ -97,8 +105,9 @@ a {
     }
 
     .main__info {
-        padding:  73px 0;
+        padding: 73px 0;
         background-color: #1B1B1B;
+
         .info__top {
             display: flex;
             flex-direction: row;
@@ -223,4 +232,14 @@ a {
             }
         }
     }
+}
+
+.swiper {
+    margin-bottom: 72px;
+    .swiper-wrapper {
+        max-width: 1920px;
+        height: 100%;
+
+    }
+
 }
