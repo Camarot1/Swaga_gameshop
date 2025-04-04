@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
         } else{
             top.innerHTML = "Заплачу ₽"
             output.value = Math.floor(input.value * 0.94)
-            
         }
         if (bot.innerHTML == "Получу ₽"){
             bot.innerHTML = "Заплачу ₽"
