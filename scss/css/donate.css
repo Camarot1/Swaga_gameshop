@@ -75,6 +75,14 @@
   width: 320px;
 }
 
+.hidden {
+  display: none !important;
+}
+
+.purple {
+  background-color: #3533A1;
+}
+
 li {
   list-style-type: none;
 }
@@ -149,7 +157,6 @@ a {
 .main__container .bottom .main__bottom {
   flex-direction: row;
   display: flex;
-  align-items: center;
   gap: 280px;
 }
 .main__container .bottom .main__bottom .bottom__info .info__button {
@@ -160,6 +167,9 @@ a {
 }
 .main__container .bottom .main__bottom .bottom__info .info__button .button__text {
   font-size: 35px;
+}
+.main__container .bottom .main__bottom .bottom__info .info__drop {
+  padding-top: 30px;
 }
 .main__container .bottom .main__bottom .bottom__info .info__drop .drop__instruction, .main__container .bottom .main__bottom .bottom__info .info__drop .drop__faq {
   display: flex;
@@ -175,6 +185,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 17px;
+  padding-bottom: 174px;
 }
 .main__container .bottom .main__bottom .bottom__form .block {
   background-color: #3533A1;
@@ -232,8 +243,4 @@ a {
   background-color: #1B9C10;
   padding: 30px 0;
   font-size: 35px;
-}
-
-.hidden {
-  display: none;
 }
