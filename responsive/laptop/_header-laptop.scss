@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .header{
     .header__container{
+        padding: 0 0 0 3vw;
+        justify-content: space-around;
         .header__navigation{
-            
+            justify-content: space-between;
+            align-items: center;
+            gap: 1vw;
+            .navigation__search{
+                width: auto;
+                padding: 12px auto;
+            }
+            .navigation__button{
+                width: auto;
+            }
+            .big2{
+                width:313px;
+                padding: auto;
+            }
         }
     }
 }
