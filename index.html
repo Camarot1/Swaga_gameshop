@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./scss/css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="responsive/laptop/css/index-laptop.css" media="(max-width: 1919px)">
+    <link rel="stylesheet" href="responsive/tablet/css/index-tablet.css" media="(max-width: 1340px)">
     <title>Document</title>
 </head>
 
@@ -184,18 +185,38 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-    let swiper = new Swiper(".swiper-container",{
-    spaceBetween: 26,
-    speed:400,
-    slidesPerView:4.5,
-    autoplay:{
-        delay:1500,
-    },
-    pagination:{
-        el: ".swiper-pagination",
-        clickable:true,
-    },
-})
+
+    let swiper = new Swiper(".swiper-container", {
+        breakpoints:{
+            450:{
+                slidesPerView: 1,
+            },
+            900:{
+                slidesPerView: 2.5,
+            },
+            1300:{
+                slidesPerView: 3,
+            },
+            1600:{
+                slidesPerView: 3.5,
+            },
+            1900:{
+                slidesPerView: 4.5,
+            },
+        },
+        spaceBetween: 1,
+        speed: 400,
+        autoplay: {
+            delay: 1500,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    })
+
+
 </script>
 <script src="./click.js"></script>
+
 </html>

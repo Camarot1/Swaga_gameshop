@@ -182,7 +182,7 @@ a {
   padding: 47px 37px 31px 37px;
   border-radius: 33px;
 }
-.main__container .main__info .info__top .top__first p {
+.main__container .main__info .info__top .top__first .first__title {
   font-size: 35px;
   max-width: 322px;
   text-align: center;
@@ -218,7 +218,7 @@ a {
   align-items: center;
   gap: 5px;
 }
-.main__container .main__info .info__top .top__second .second__top .top__list .el .li__block p {
+.main__container .main__info .info__top .top__second .second__top .top__list .el .li__block .block__text {
   font-size: 35px;
   max-height: 31.5px;
 }
@@ -245,6 +245,7 @@ a {
 }
 .main__container .main__info .info__top .top__third .third__text {
   font-size: 35px;
+  text-align: center;
 }
 .main__container .main__info .info__bott {
   display: flex;
