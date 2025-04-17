@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.header .header__container .header__name {
+  font-size: 35px;
+  margin-right: 0px;
+}
+.header .header__container .header__navigation .navigation__button {
+  font-size: 19px;
+  padding: 12px 20px;
+}
+.header .header__container .header__navigation .big2 {
+  max-width: 242px;
+}
+.header .header__container .header__navigation .navigation__search {
+  max-width: 185px;
+  font-size: 20px;
+}
+
+.footer__container {
+  padding: 0 0 0 10vw;
+}
+.footer__container .footer__info {
+  gap: 20vw;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer__list .footer__el .el__text {
+  font-size: 25px;
+  max-width: 214px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.main__container .main__slider .slider__title {
+  font-size: 40px;
+}
+.main__container .main__convert {
+  flex-direction: column;
+}
+.main__container .main__convert .convert__img {
+  margin: 48px 0 0 0;
+}
+.main__container .main__convert .convert__title {
+  font-size: 25px;
+}
+.main__container .main__convert .convert__block {
+  width: 80vw;
+  align-items: center;
+}
+.main__container .main__convert .convert__block .input-box {
+  align-items: center;
+}
+.main__container .main__convert .convert__block .input-box .input__title {
+  font-size: 25px;
+}
+.main__container .main__convert .convert__block .input-output {
+  max-width: 80%;
+}
+.main__container .main__convert .convert__button {
+  font-size: 30px;
+}
+.main__container .main__info .info__top {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.main__container .main__info .info__top .top__first {
+  gap: 0 !important;
+  padding: 27px 0;
+}
+.main__container .main__info .info__top .top__third {
+  padding: 20px 39px 20px 39px;
+}
+.main__container .main__info .info__bott .bott {
+  padding: 20px 30px 53px 40px;
+}
+.main__container .main__info .info__bott .bott .bott__title {
+  gap: 90px;
+}
+.main__container .main__info .info__bott .bott .bott__title .title__text {
+  font-size: 25px;
+  max-width: 220px;
+}
+.main__container .main__info .info__bott .bott .bott__text {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.swiper .swiper-wrapper .swiper-slide .swiper-img {
+  width: 330px;
+}

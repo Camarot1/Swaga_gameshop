@@ -1,1 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.header{
+    .header__container{
+        .header__navigation{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .burger {
+            margin-top: 20px;
+            width: 40px;
+            height: 30px;
+            background: none;
+            border: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+            padding-bottom: 10px;
+        }
+        
+        .burger span {
+            height: 4px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 5px;
+        }
+    }
+}

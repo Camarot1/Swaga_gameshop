@@ -1,1 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.header .header__container .header__navigation {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.header .header__container .burger {
+  margin-top: 20px;
+  width: 40px;
+  height: 30px;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.header .header__container .burger span {
+  height: 4px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.footer__container {
+  padding: 0;
+}
+.footer__container .footer__info {
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.main__container .main__slider .slider__title {
+  font-size: 25px;
+}
+.main__container .main__convert .convert__img {
+  max-width: 80vw;
+}
+.main__container .main__convert .convert__block .block__input {
+  max-width: 100vw;
+}
+.main__container .main__convert .convert__block .block__input .input-box {
+  max-width: 100%;
+}
+.main__container .main__convert .convert__block .input-output {
+  max-width: 50%;
+}
+.main__container .main__convert .convert__button {
+  font-size: 25px;
+  margin: 25px 0 18px 0;
+}

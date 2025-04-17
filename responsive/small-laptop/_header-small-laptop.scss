@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.header{
+    .header__container{
+        .header__name{
+            font-size: 35px;
+            margin-right:0px;
+        }
+        .header__navigation{
+            .navigation__button{
+                font-size:19px;
+                padding:12px 20px;
+            }
+            .big2{
+                max-width: 242px;
+            }
+            .navigation__search{
+                max-width:185px;
+                font-size:20px;
+            }
+        }
+    }
+}
