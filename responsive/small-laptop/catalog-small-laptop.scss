@@ -1,0 +1,56 @@
+@import './header-small-laptop.scss', './footer-small-laptop.scss';
+.main__container{
+    .top{
+        .top__title{
+            font-size: 35px;
+        }
+        .top__block, .position__block{
+            .block__row{
+                .row__item{
+                    img{
+                        max-width:210px;
+                    }
+                    .item__title{
+                        font-size:30px;
+                    }
+                    .item__price{
+                        .price-now{
+                            font-size:28px;
+                        }
+                        .price-old{
+                            font-size:20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bottom{
+        .bottom__title{
+            gap: 40vw;
+            .title__text{
+                font-size:30px;
+            }
+        }
+        .bottom__block{
+            .block__row{
+                .row__item{
+                    img{
+                        max-width:210px;
+                    }
+                    .item__title{
+                        font-size:30px;
+                    }
+                    .item__price{
+                        .price-now{
+                            font-size:28px;
+                        }
+                        .price-old{
+                            font-size:20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

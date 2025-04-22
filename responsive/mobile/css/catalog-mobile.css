@@ -1,0 +1,10 @@
+.main__container .top .top__title {
+  font-size: 30px;
+}
+.main__container .bottom .bottom__title {
+  flex-direction: column;
+  gap: 15px;
+}
+.main__container .bottom .bottom__title .title__text {
+  text-align: center;
+}

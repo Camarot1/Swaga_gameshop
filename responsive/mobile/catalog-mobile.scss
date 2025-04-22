@@ -1,0 +1,17 @@
+@import './header-mobile.scss', './footer-mobile.scss';
+.main__container{
+    .top{
+        .top__title{
+            font-size:30px;  
+        }
+    }
+    .bottom{
+        .bottom__title{
+            flex-direction: column;
+            gap: 15px;
+            .title__text{
+                text-align: center;
+            }
+        }
+    }
+}

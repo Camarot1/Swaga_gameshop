@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.header .header__container .header__navigation {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.header .header__container .burger {
+  margin-top: 20px;
+  width: 40px;
+  height: 30px;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.header .header__container .burger span {
+  height: 4px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.footer__container {
+  padding: 0;
+}
+.footer__container .footer__info {
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__container .top .top__block .block__row {
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.main__container .top .top__block .block__row .row__item {
+  padding: 10px 30px;
+}
+.main__container .bottom .bottom__title {
+  gap: 18vw;
+}
+.main__container .bottom .bottom__title .title__text {
+  text-align: center;
+  font-size: 25px;
+}
+.main__container .bottom .bottom__title .title__arrow {
+  gap: 35px;
+}
+.main__container .bottom .bottom__title .title__arrow img {
+  max-width: 55px;
+}
+.main__container .bottom .bottom__block .block__row {
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.main__container .bottom .bottom__block .block__row .row__item {
+  padding: 10px 30px;
+}

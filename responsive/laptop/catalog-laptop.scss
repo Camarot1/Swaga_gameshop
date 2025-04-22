@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import './header-laptop.scss', './footer-laptop.scss';
+.main__container{
+    .top{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        .top__title{
+            align-self: center;
+        }
+        .top__block{
+            .block__row{
+                gap: 0;
+                justify-content: space-around;
+            }
+        }
+    }
+    .bottom{
+        margin-top:50px;
+        margin-left:0;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        .bottom__title{
+            gap: 50vw;
+            align-self: center;
+            max-width: 90vw;
+            .title__text{
+                font-size:40px;
+            }
+        }
+        .bottom__block{
+            .block__row{
+                gap: 0;
+                justify-content: space-around;
+            }
+        }
+
+    }
+}

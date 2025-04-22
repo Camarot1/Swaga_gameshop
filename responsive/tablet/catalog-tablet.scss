@@ -1,0 +1,40 @@
+@import './header-tablet.scss', './footer-tablet.scss';
+.main__container{
+    .top{
+        .top__block{
+            .block__row{
+                gap: 50px;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                .row__item{
+                    padding: 10px 30px;
+                }
+            }
+        }
+    }
+    .bottom{
+        .bottom__title{
+            gap: 18vw;
+            .title__text{
+                text-align: center;
+                font-size: 25px;
+            }
+            .title__arrow{
+                gap: 35px;
+                img{
+                    max-width: 55px;
+                }
+            }
+        }
+        .bottom__block{
+            .block__row{
+                gap: 50px;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                .row__item{
+                    padding: 10px 30px;
+                }
+            }
+        }
+    }
+}

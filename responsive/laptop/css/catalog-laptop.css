@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.header .header__container {
+  padding: 0 0 0 3vw;
+  justify-content: space-around;
+}
+.header .header__container .header__navigation {
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vw;
+}
+.header .header__container .header__navigation .navigation__search {
+  width: auto;
+  padding: 12px auto;
+}
+.header .header__container .header__navigation .navigation__button {
+  width: auto;
+}
+.header .header__container .header__navigation .big2 {
+  width: 313px;
+  padding: auto;
+}
+
+.main__container .top {
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+.main__container .top .top__title {
+  align-self: center;
+}
+.main__container .top .top__block .block__row {
+  gap: 0;
+  justify-content: space-around;
+}
+.main__container .bottom {
+  margin-top: 50px;
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+.main__container .bottom .bottom__title {
+  gap: 50vw;
+  align-self: center;
+  max-width: 90vw;
+}
+.main__container .bottom .bottom__title .title__text {
+  font-size: 40px;
+}
+.main__container .bottom .bottom__block .block__row {
+  gap: 0;
+  justify-content: space-around;
+}

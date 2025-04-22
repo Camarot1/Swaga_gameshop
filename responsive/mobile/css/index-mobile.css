@@ -1,0 +1,41 @@
+.hidden {
+  display: none !important;
+}
+
+.main__container .main__info .info__top .top__second .second__top {
+  padding: 15px 15px;
+}
+.main__container .main__info .info__top .top__second .second__top .top__title {
+  font-size: 25px;
+}
+.main__container .main__info .info__top .top__second .second__top .top__list {
+  flex-direction: column;
+}
+.main__container .main__info .info__top .top__second .second__bott .bott__text {
+  font-size: 25px;
+}
+.main__container .main__info .info__top .top__second .second__bott .bott__img {
+  max-width: 20vw;
+}
+.main__container .main__info .info__top .top__third .third__text {
+  font-size: 25px;
+}
+.main__container .main__info .info__top .top__third .third__img {
+  max-width: 70vw;
+}
+.main__container .main__info .info__bott .bott .bott__title {
+  gap: 2vw;
+}
+.main__container .main__info .info__bott .bott .bott__title .title__text {
+  font-size: 20px;
+}
+.main__container .main__info .info__bott .bott .bott__title .title__img {
+  max-width: 80px;
+}
+.main__container .main__info .info__bott .bott .bott__text {
+  font-size: 20px;
+}
+
+.swiper .swiper-wrapper .swiper-slide .swiper-img {
+  width: 280px;
+}
