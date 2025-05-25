@@ -1,1 +1,40 @@
 @import './header-mobile.scss', './footer-mobile.scss';
+
+.main__container {
+    .main__top {
+        padding-left: 0;
+        padding-top: 20px;
+
+        .top__block {
+            .block__title {
+                margin-bottom: 20px;
+                font-size:25px;
+            }
+
+            .block__text {
+                padding-bottom: 20px;
+                font-size:20px;
+            }
+            .block__button{
+                .button{
+                    font-size:20px;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        .main__bottom {
+            .bottom__info {
+                max-width: 80%;
+                .info__button {
+                    justify-content: space-between;
+                }
+            }
+            .bottom__form{
+                max-width: 70vw;
+                padding-bottom: 40px;
+            }
+        }
+    }
+}

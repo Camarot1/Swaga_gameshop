@@ -35,3 +35,74 @@
 .title {
   font-size: 30px;
 }
+
+.main__container .main__top {
+  padding-left: 30px;
+}
+.main__container .main__top .top__img {
+  max-width: 300px;
+}
+.main__container .main__top .top__block .block__title {
+  font-size: 35px;
+}
+.main__container .main__top .top__block .block__text {
+  font-size: 25px;
+}
+.main__container .main__top .top__block .block__button {
+  gap: 10px;
+}
+.main__container .main__top .top__block .block__button .button {
+  padding: 12px 25px;
+}
+.main__container .bottom .main__bottom {
+  gap: 4vw;
+}
+.main__container .bottom .main__bottom .bottom__info {
+  max-width: 50%;
+}
+.main__container .bottom .main__bottom .bottom__info .info__button .button__text {
+  font-size: 25px;
+}
+.main__container .bottom .main__bottom .bottom__info .info__drop {
+  max-width: 70%;
+}
+.main__container .bottom .main__bottom .bottom__info .info__drop .drop__instruction .text {
+  font-size: 20px;
+}
+.main__container .bottom .main__bottom .bottom__info .info__drop .drop__faq .text {
+  font-size: 20px;
+}
+.main__container .bottom .main__bottom .bottom__form {
+  max-width: 35vw;
+}
+.main__container .bottom .main__bottom .bottom__form .block {
+  max-width: 90%;
+}
+.main__container .bottom .main__bottom .bottom__form .form__money .money__title {
+  font-size: 25px;
+  max-width: 80%;
+}
+.main__container .bottom .main__bottom .bottom__form .form__money .input__money {
+  font-size: 25px;
+  max-width: 80%;
+}
+.main__container .bottom .main__bottom .bottom__form .form__login .input__login {
+  font-size: 25px;
+  max-width: 70%;
+}
+.main__container .bottom .main__bottom .bottom__form .form__login .login__button {
+  font-size: 15px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__promo .input__promo {
+  font-size: 25px;
+  max-width: 80%;
+}
+.main__container .bottom .main__bottom .bottom__form .form__end .end__title {
+  font-size: 25px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__end .end__donate {
+  font-size: 25px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__end .end__donate img {
+  max-width: 70%;
+}

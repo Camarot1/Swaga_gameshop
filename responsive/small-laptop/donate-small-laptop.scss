@@ -1,1 +1,92 @@
 @import './header-small-laptop.scss', './footer-small-laptop.scss';
+.main__container{
+    .main__top{
+        padding-left: 30px;
+        .top__img{
+            max-width: 300px;
+        }
+        .top__block{
+            .block__title{
+                font-size:35px;
+            }
+            .block__text{
+                font-size:25px;
+            }
+            .block__button{
+                gap: 10px;
+                .button{
+                    padding: 12px 25px;
+                }
+            }
+        }
+    }
+    .bottom{
+        .main__bottom{
+            gap: 4vw;
+            .bottom__info{
+                max-width: 50%;
+                .info__button{
+                    .button__text{
+                        font-size:25px;
+                    }
+                }
+                .info__drop{
+                    max-width: 70%;
+                    .drop__instruction{
+                        .text{
+                            font-size:20px;
+                        }
+                    }
+                    .drop__faq{
+                        .text{
+                            font-size:20px;
+                        }
+                    }
+                }
+            }
+            .bottom__form{
+                max-width: 35vw;
+                .block{
+                    max-width:90%;
+                    
+                }
+                .form__money{
+                    .money__title{
+                        font-size:25px;
+                        max-width: 80%;
+                    }
+                    .input__money{
+                        font-size:25px;
+                        max-width: 80%;
+                    }
+                }
+                .form__login{
+                    .input__login{
+                        font-size:25px;
+                        max-width: 70%;
+                    }
+                    .login__button{
+                        font-size:15px;
+                    }
+                }
+                .form__promo{
+                    .input__promo{
+                        font-size:25px;
+                        max-width: 80%;
+                    }
+                }
+                .form__end{
+                    .end__title{
+                        font-size:25px;
+                    }
+                    .end__donate{
+                        font-size:25px;
+                        img{
+                            max-width: 70%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

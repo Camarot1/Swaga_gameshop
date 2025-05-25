@@ -1,1 +1,62 @@
 @import './header-tablet.scss', './footer-tablet.scss';
+.main__container{
+    .main__top{
+        flex-direction: column;
+        align-items: center;
+        img{
+            margin-right: 0;
+        }
+        .top__img{
+            margin-right: 0;
+            margin-bottom: 40px;
+        }
+    }
+    .bottom{
+        .main__bottom{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .bottom__info{
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                .info__button{
+                    width: 80vw;
+                    gap: 20px;
+                    padding: 18px 20px 18px 20px;
+                    .button__text{
+                        font-size:17px;
+                    }
+                }
+                .info__drop{
+                    .drop__instruction{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        *{
+                            text-align: center;
+                        }
+                    }
+                    .drop__faq{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        *{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            .bottom__form{
+                .form__login{
+                    .input__login{
+                        font-size:20px;
+                    }
+                }
+                .form__button{
+                    font-size:20px;
+                }
+            }
+        }
+    }
+}

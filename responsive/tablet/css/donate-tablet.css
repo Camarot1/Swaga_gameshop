@@ -30,3 +30,55 @@
   flex-direction: column;
   align-items: center;
 }
+
+.main__container .main__top {
+  flex-direction: column;
+  align-items: center;
+}
+.main__container .main__top img {
+  margin-right: 0;
+}
+.main__container .main__top .top__img {
+  margin-right: 0;
+  margin-bottom: 40px;
+}
+.main__container .bottom .main__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__container .bottom .main__bottom .bottom__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__container .bottom .main__bottom .bottom__info .info__button {
+  width: 80vw;
+  gap: 20px;
+  padding: 18px 20px 18px 20px;
+}
+.main__container .bottom .main__bottom .bottom__info .info__button .button__text {
+  font-size: 17px;
+}
+.main__container .bottom .main__bottom .bottom__info .info__drop .drop__instruction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__container .bottom .main__bottom .bottom__info .info__drop .drop__instruction * {
+  text-align: center;
+}
+.main__container .bottom .main__bottom .bottom__info .info__drop .drop__faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main__container .bottom .main__bottom .bottom__info .info__drop .drop__faq * {
+  text-align: center;
+}
+.main__container .bottom .main__bottom .bottom__form .form__login .input__login {
+  font-size: 20px;
+}
+.main__container .bottom .main__bottom .bottom__form .form__button {
+  font-size: 20px;
+}
