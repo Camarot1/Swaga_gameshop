@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.hidden {
+  display: none !important;
+}
+
+.header .header__container .header__navigation {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.header .header__container .burger {
+  margin-top: 20px;
+  width: 40px;
+  height: 30px;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.header .header__container .burger span {
+  height: 4px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.footer__container {
+  padding: 0;
+}
+.footer__container .footer__info {
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__container .main__back {
+  padding: 43px 0 43px 10vw;
+}
+.main__container .main__content .content__galery .galery__right {
+  padding-left: 0;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-tags .tag {
+  font-size: 25px;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-slider {
+  max-width: 97vw;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-choose .choose__select {
+  width: auto;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-choose .choose__payment .payment__money {
+  font-size: 25px;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-choose .choose__payment .payment__button {
+  padding: 14px 45px;
+  font-size: 25px;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-choose .choose__payment * {
+  font-size: 25px;
+}
+.main__container .main__content .content__text .content__text-first .first__title {
+  font-size: 25px;
+}
+.main__container .main__content .content__text .content__text-first .first__sys {
+  flex-direction: column;
+}
+.main__container .main__content .content__text .content__text-first .first__sys * {
+  font-size: 18px;
+}
+.main__container .main__content .content__text .content__text-first .width {
+  max-width: auto;
+}
+.main__container .main__content .content__text .content__text-second .second__title {
+  font-size: 25px;
+}
+.main__container .main__content .content__text .content__text-second .second__text {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.main__container .main__content .content__text .content__text-third .third__title {
+  font-size: 25px;
+}
+.main__container .main__content .content__text .content__text-third .third__text {
+  font-size: 18px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}

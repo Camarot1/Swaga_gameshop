@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.header .header__container .header__name {
+  font-size: 35px;
+  margin-right: 0px;
+}
+.header .header__container .header__navigation .navigation__button {
+  font-size: 19px;
+  padding: 12px 20px;
+}
+.header .header__container .header__navigation .big2 {
+  max-width: 242px;
+}
+.header .header__container .header__navigation .navigation__search {
+  max-width: 185px;
+  font-size: 20px;
+}
+
+.footer__container {
+  padding: 0 0 0 10vw;
+}
+.footer__container .footer__info {
+  gap: 20vw;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer__list .footer__el .el__text {
+  font-size: 25px;
+  max-width: 214px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.main__container {
+  padding-left: 0px;
+}
+.main__container .main__back {
+  padding-left: 100px;
+}
+.main__container .main__content .content__galery {
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.main__container .main__content .content__galery .galery__right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-title {
+  padding: 0;
+  text-align: center;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-slider {
+  max-width: 90vw;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-choose {
+  margin-top: 0;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-tags {
+  padding-bottom: 0;
+  padding-left: 50px;
+}
+.main__container .main__content .content__text .content__text-first {
+  padding-right: 20px;
+}
+.main__container .main__content .content__text .content__text-first .first__sys {
+  gap: 30px;
+}
+.main__container .main__content .content__text .content__text-second .second__title {
+  margin: 0 20px 0 30px;
+}

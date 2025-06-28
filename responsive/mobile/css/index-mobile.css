@@ -2,6 +2,10 @@
   display: none !important;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .main__container .main__info .info__top .top__second .second__top {
   padding: 15px 15px;
 }

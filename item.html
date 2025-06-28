@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./scss/css/item.css">
+    <link rel="stylesheet" href="responsive/laptop/css/item-laptop.css" media="(max-width: 1919px)">
+    <link rel="stylesheet" href="responsive/small-laptop/css/item-small-laptop.css" media="(max-width: 1340px)">
+    <link rel="stylesheet" href="responsive/tablet/css/item-tablet.css" media="(max-width: 900px)">
+    <link rel="stylesheet" href="responsive/mobile/css/item-mobile.css" media="(max-width: 500px)">
     <title>Document</title>
 </head>
 
@@ -15,10 +19,17 @@
                 <p class="header__name logo__name">SWAGA</p>
             </a>
             <div class="header__navigation">
-                <a href="./donate.html"><button class="navigation__button big2">Пополнение STEAM</button></a>
-                <input type="text" class="navigation__search" placeholder="поиск по товарам, категориям">
-                <a href="./catalog.html"><button class="navigation__button big">Каталог</button></a>
+                <a href="./donate.html"><button class="navigation__button header__hide big2">Пополнение STEAM</button></a>
+                <input type="text" class="navigation__search header__hide" placeholder="поиск по товарам, категориям">
+                <a href="./catalog.html"><button class="navigation__button header__hide big">Каталог</button></a>
                 <button class="navigation__button">Профиль</button>
+            </div>
+            <div class="header__burger">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </header>
@@ -31,7 +42,7 @@
             <div class="main__content">
                 <div class="content__galery">
                     <div class="galery__left">
-                        <div class="galery__left-img"><img src="./img/catalog__img-big.svg" alt=""></div>
+                        <div class="galery__left-img"><img src="./img/catalog__img-big.svg" alt="" class="left-img"></div>
                         <select class="galery__left-select">
                             <option class="select__option select__option-choose" value="0" selected>Выберите регион
                                 товара</option>
@@ -54,12 +65,20 @@
                             <li class="tag">Мультиплеер</li>
                             <li class="tag">Песочница</li>
                         </ul>
-                        <div class="galery__right-slider">
-                            <img class="slider-img one" src="./img/catalog__img-small.svg" alt="">
-                            <img class="slider-img two" src="./img/catalog__img-small.svg" alt="">
-                            <img class="slider-img three" src="./img/catalog__img-small.svg" alt="">
-                            <img class="slider-img four" src="./img/catalog__img-small.svg" alt="">
-                            <img class="slider__arrow" src="./img/row__button.svg" alt="">
+                        <div class="swiper mySwiper galery__right-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img class="slider-img one" src="./img/catalog__img-small.svg"
+                                        alt=""></div>
+                                <div class="swiper-slide"><img class="slider-img two" src="./img/catalog__img-small.svg"
+                                        alt=""></div>
+                                <div class="swiper-slide"><img class="slider-img three"
+                                        src="./img/catalog__img-small.svg" alt=""></div>
+                                <div class="swiper-slide"><img class="slider-img four"
+                                        src="./img/catalog__img-small.svg" alt=""></div>
+                                <div class="swiper-slide"><img class="slider-img five"
+                                        src="./img/catalog__img-small.svg" alt=""></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
                         </div>
                         <div class="galery__right-choose">
                             <p class="choose__title">Издание</p>
@@ -171,5 +190,27 @@
         </div>
     </footer>
 </body>
+<script src="./burger.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    let swiper = new Swiper(".mySwiper", {
+        slidesPerView: 'auto',
+        freeMode: true,
+        breakpoints: {
+            450: { slidesPerView: 1.5 },
+            850: { slidesPerView: 2.4, spaceBetween: 10, },
+            1100:{ slidesPerView:3, spaceBetween:5,},
+            1300: { slidesPerView: 3 },
+            1600: { slidesPerView: 3 },
+            1900: { slidesPerView: 4 }
+        },
+        spaceBetween: 3,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        loop: true
+    });
+</script>
 
 </html>

@@ -1,0 +1,74 @@
+@import './header-tablet.scss', './footer-tablet.scss';
+
+.main__container{
+    .main__back{
+        padding: 43px 0 43px 10vw ;
+    }
+    .main__content{
+        .content__galery{
+            .galery__right{
+                padding-left: 0;
+                .galery__right-tags{
+                    .tag{
+                        font-size:25px;
+                    }
+                }
+                .galery__right-slider{
+                    max-width: 97vw;
+                }
+                .galery__right-choose{
+                    .choose__select{
+                        width: auto;
+                    }
+                    .choose__payment{
+                        .payment__money{
+                            font-size:25px;
+                        }
+                        .payment__button{
+                            padding: 14px 45px;
+                            font-size: 25px;
+                        }
+                        *{
+                            font-size: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        .content__text{
+            .content__text-first{
+                .first__title{
+                    font-size:25px;
+                }
+                .first__sys{
+                    flex-direction: column;
+                    *{
+                        font-size: 18px;
+                    }
+                }
+                .width{
+                    max-width: auto;
+                }
+            }
+            .content__text-second{
+                .second__title{
+                    font-size:25px;
+                }
+                .second__text{
+                    font-size:18px;
+                    margin-right: 10px
+                }
+            }
+            .content__text-third{
+                .third__title{
+                    font-size:25px;
+                }
+                .third__text{
+                    font-size:18px;
+                    margin-right:10px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

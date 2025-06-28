@@ -1,0 +1,65 @@
+@import './header-laptop.scss', './footer-laptop.scss';
+
+.main__container {
+    .main__content {
+        .content__galery {
+            .galery__right {
+                .galery__right-tags {
+                    flex-wrap: wrap;
+
+                }
+                .galery__right-choose {
+                    width: 75%;
+                    select {
+                        color: black;
+                        font-size: 25px;
+                        option {
+                            color: black;
+                        }
+                    }
+                }
+                .galery__right-slider{
+                    max-width: 55vw;
+                }
+            }
+        }
+
+        .content__text {
+            .content__text-first {
+                .first__title {
+                    font-size: 30px;
+                    text-align: center;
+                }
+
+                .first__sys {
+                    margin-right: 15px;
+
+                    * {
+                        font-size: 22px;
+                    }
+                }
+            }
+
+            .content__text-second {
+                .second__title {
+                    font-size: 30px;
+                }
+
+                .second__text {
+                    font-size: 22px;
+                }
+            }
+
+            .content__text-third {
+                .third__title {
+                    font-size: 30px;
+                    text-align: center;
+                }
+
+                .third__text {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

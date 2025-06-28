@@ -1,3 +1,7 @@
+.hidden {
+  display: none !important;
+}
+
 .main__container .top .top__title {
   font-size: 30px;
 }

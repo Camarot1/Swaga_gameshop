@@ -1,0 +1,49 @@
+.hidden {
+  display: none !important;
+}
+
+.main__container .main__back {
+  padding: 20px 0;
+}
+.main__container .main__back .back__title {
+  font-size: 25px;
+}
+.main__container .main__content .content__galery .galery__left .galery__left-img .left-img {
+  width: 90vw;
+}
+.main__container .main__content .content__galery .galery__left .galery__left-select {
+  max-width: 90vw;
+}
+.main__container .main__content .content__galery .galery__left .galery__left-rewiews {
+  text-align: center;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-title {
+  font-size: 30px;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-tags .tag {
+  padding: 9px 37px;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-choose {
+  padding-left: 16px;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-choose .choose__payment {
+  flex-direction: column;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-choose .choose__payment .payment__button {
+  margin: 10px 0;
+}
+.main__container .main__content .content__text .content__text-first .first__title {
+  font-size: 21px;
+}
+.main__container .main__content .content__text .content__text-first .first__sys {
+  padding-right: 0;
+}
+.main__container .main__content .content__text .content__text-first .first__sys * {
+  font-size: 16px;
+}
+.main__container .main__content .content__text .content__text-second .second__title {
+  margin: 0 10px;
+}
+.main__container .main__content .content__text .content__text-third .third__title {
+  padding: 0 15px 0 0;
+}

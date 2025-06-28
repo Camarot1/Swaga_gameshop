@@ -1,0 +1,49 @@
+@import './header-small-laptop.scss', './footer-small-laptop.scss';
+
+.main__container{
+    padding-left: 0px;
+    .main__back{
+        padding-left: 100px;
+    }
+    .main__content{
+        .content__galery{
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            .galery__right{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 30px;
+                .galery__right-title{
+                    padding: 0;
+                    text-align: center;
+                }
+                .galery__right-slider{
+                    max-width: 90vw;
+                    
+                }
+                .galery__right-choose{
+                    margin-top: 0;
+                }
+                .galery__right-tags{
+                    padding-bottom: 0;
+                    padding-left: 50px;
+                }
+            }
+        }
+        .content__text{
+            .content__text-first{
+                padding-right: 20px;
+                .first__sys{
+                    gap: 30px;
+                }
+            }
+            .content__text-second{
+                .second__title{
+                    margin: 0 20px 0 30px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.header .header__container {
+  padding: 0 0 0 3vw;
+  justify-content: space-around;
+}
+.header .header__container .header__navigation {
+  justify-content: space-between;
+  align-items: center;
+  gap: 1vw;
+}
+.header .header__container .header__navigation .navigation__search {
+  width: auto;
+  padding: 12px auto;
+}
+.header .header__container .header__navigation .navigation__button {
+  width: auto;
+}
+.header .header__container .header__navigation .big2 {
+  width: 313px;
+  padding: auto;
+}
+
+.main__container .main__content .content__galery .galery__right .galery__right-tags {
+  flex-wrap: wrap;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-choose {
+  width: 75%;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-choose select {
+  color: black;
+  font-size: 25px;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-choose select option {
+  color: black;
+}
+.main__container .main__content .content__galery .galery__right .galery__right-slider {
+  max-width: 55vw;
+}
+.main__container .main__content .content__text .content__text-first .first__title {
+  font-size: 30px;
+  text-align: center;
+}
+.main__container .main__content .content__text .content__text-first .first__sys {
+  margin-right: 15px;
+}
+.main__container .main__content .content__text .content__text-first .first__sys * {
+  font-size: 22px;
+}
+.main__container .main__content .content__text .content__text-second .second__title {
+  font-size: 30px;
+}
+.main__container .main__content .content__text .content__text-second .second__text {
+  font-size: 22px;
+}
+.main__container .main__content .content__text .content__text-third .third__title {
+  font-size: 30px;
+  text-align: center;
+}
+.main__container .main__content .content__text .content__text-third .third__text {
+  font-size: 22px;
+}
