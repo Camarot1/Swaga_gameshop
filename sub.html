@@ -5,22 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./scss/css/sub.css">
-    <link rel="stylesheet" href="./scss/css/small.css" media="(max-width:1000px)">
-    <link rel="stylesheet" href="./scss/css/color.css" media="(max-width:500px)">
+    <link rel="stylesheet" href="responsive/laptop/css/sub-laptop.css" media="(max-width: 1919px)">
+    <link rel="stylesheet" href="responsive/small-laptop/css/sub-small-laptop.css" media="(max-width: 1340px)">
+    <link rel="stylesheet" href="responsive/tablet/css/sub-tablet.css" media="(max-width: 900px)">
+    <link rel="stylesheet" href="responsive/mobile/css/sub-mobile.css" media="(max-width: 500px)">
     <title>Document</title>
 </head>
 
 <body>
-    <header class="header">
+   <header class="header">
         <div class="header__container container">
             <a href="./index.html">
                 <p class="header__name logo__name">SWAGA</p>
             </a>
             <div class="header__navigation">
-                <a href="./donate.html"><button class="navigation__button big2">Пополнение STEAM</button></a>
-                <input type="text" class="navigation__search" placeholder="поиск по товарам, категориям">
-                <a href="./catalog.html"><button class="navigation__button big">Каталог</button></a>
+                <a href="./donate.html"><button class="navigation__button header__hide big2">Пополнение STEAM</button></a>
+                <input type="text" class="navigation__search header__hide" placeholder="поиск по товарам, категориям">
+                <a href="./catalog.html"><button class="navigation__button header__hide big">Каталог</button></a>
                 <button class="navigation__button">Профиль</button>
+            </div>
+            <div class="header__burger">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </header>
@@ -150,5 +159,5 @@
         </div>
     </footer>
 </body>
-
+<script src="./burger.js"></script>
 </html>

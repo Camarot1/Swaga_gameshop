@@ -1,0 +1,23 @@
+@import './header-small-laptop.scss', './footer-small-laptop.scss';
+.main__container{
+    padding-left: 30px;
+    .main__info{
+        .info__content{
+            .content__title{
+                font-size:35px;
+            }
+            .content__conditions{
+                margin-left: 30px;
+                .condition{
+                    font-size:20px;
+                }
+            }
+        }
+    }
+    .main__content{
+        .content__price{
+            padding: 51px 0 0 20px;
+            max-width: 95vw;
+        }
+    }
+}

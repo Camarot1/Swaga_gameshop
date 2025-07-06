@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.hidden {
+  display: none !important;
+}
+
+.header .header__container .header__navigation {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.header .header__container .burger {
+  margin-top: 20px;
+  width: 40px;
+  height: 30px;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.header .header__container .burger span {
+  height: 4px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.footer__container {
+  padding: 0;
+}
+.footer__container .footer__info {
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__container {
+  padding-left: 0;
+}
+.main__container .main__back {
+  margin-left: 20px;
+}
+.main__container .main__info {
+  flex-direction: column;
+  align-items: center;
+}
+.main__container .main__info img {
+  max-width: 75vw;
+}
+.main__container .main__info .info__content {
+  margin-top: 20px;
+}
+.main__container .main__info .info__content .content__title {
+  text-align: center;
+}
+.main__container .main__content .content__instructions * {
+  text-align: center;
+}
+.main__container .main__content .content__button {
+  padding: 18px 5vw;
+}
+.main__container .main__content .content__instructions {
+  padding: 27px 10vw;
+}

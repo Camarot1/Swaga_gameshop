@@ -1,0 +1,13 @@
+.hidden {
+  display: none !important;
+}
+
+.main__container .main__info .info__content .content__conditions {
+  padding: 48px 0 48px 0px;
+}
+.main__container .main__content .content__price {
+  padding: 51px 0 0 0;
+}
+.main__container .main__content .content__price .price__block {
+  margin-left: 0;
+}

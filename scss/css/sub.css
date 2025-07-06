@@ -159,6 +159,7 @@ a {
   flex-wrap: wrap;
   max-width: 1101px;
   padding: 51px 0 0 51px;
+  justify-content: space-around;
 }
 .main__container .main__content .content__price .price__block {
   border: 1px solid black;

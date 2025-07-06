@@ -1,0 +1,33 @@
+@import './header-tablet.scss', './footer-tablet.scss';
+.main__container{
+    padding-left: 0;
+    .main__back{
+        margin-left: 20px;
+    }
+    .main__info{
+        flex-direction: column;
+        align-items: center;
+        img{
+            max-width: 75vw;
+        }
+        .info__content{
+            margin-top: 20px;
+            .content__title{
+                text-align: center;
+            }
+        }
+    }
+    .main__content{
+        .content__instructions{
+            *{
+                text-align: center;
+            }
+        }
+        .content__button{
+            padding: 18px 5vw;
+        }
+        .content__instructions{
+            padding: 27px 10vw;
+        }
+    }
+}
