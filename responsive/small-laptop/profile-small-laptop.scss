@@ -1,0 +1,11 @@
+@import './header-small-laptop.scss', './footer-small-laptop.scss';
+
+.main__container{
+    .main__order{
+        .order__buttons{
+            .order__button{
+                font-size:35px;
+            }
+        }
+    }
+}

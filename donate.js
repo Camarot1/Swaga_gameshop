@@ -2,17 +2,25 @@
 let postButton = document.querySelector('.form__button')
 let moneyGive = document.querySelector('.input__money')
 let moneyPost = document.querySelector('.end__result')
+const buttonChange = document.querySelectorAll(".button__changeMoney");
+let currentCurrency = "₽";
+buttonChange.forEach(button => {
+    button.addEventListener("click", () => {
+        currentCurrency = button.dataset.currency;
+        updateMoneyDisplay();
+    });
+});
+function updateMoneyDisplay() {
+    const amount = parseFloat(moneyGive.value) || 0;
+    const hasPromo = document.querySelector('.input__promo').value !== '';
+    const multiplier = hasPromo ? 1.06 : 1.1;
+    let result = Math.ceil(amount * multiplier) + currentCurrency;
+    moneyPost.textContent = result;
+    postButton.textContent = `Вы заплатите: ${result}`;
+}
 document.addEventListener('DOMContentLoaded', () => {
-    moneyGive.addEventListener('input', () => {
-        let result = Math.floor(moneyGive.value * 1.1) + "₽"
-        moneyPost.innerHTML = result
-        postButton.innerHTML = `Вы заплатите: ${result}`
-        if (document.querySelector('.input__promo').value != '') {
-            moneyPost.innerHTML = Math.floor(moneyGive.value * 1.06) + "₽"
-            postButton.innerHTML = "Вы заплатите:" + Math.floor(moneyGive.value * 1.06) + "₽"
-        }
-    })
-})
+    moneyGive.addEventListener('input', updateMoneyDisplay);
+});
 let instruction = document.querySelector('.ins')
 let faq = document.querySelector('.faq')
 let textIns = document.querySelector('.drop__instruction')

@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.logo__name {
+  font-size: 50px;
+  color: white;
+  padding: 27px 0;
+}
+
+.footer__container {
+  padding: 0 0 0 120px;
+  background-color: #282828;
+}
+.footer__container * {
+  color: white;
+}
+.footer__container .footer__info {
+  padding-top: 52px;
+  display: flex;
+  flex-direction: row;
+  gap: 178px;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+}
+.footer__list .footer__el {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+}
+.footer__list .footer__el .el__text {
+  font-size: 35px;
+}
+
+.title {
+  font-size: 45px;
+  padding-bottom: 43px;
+}
+
+.header .header__container {
+  display: flex;
+  align-items: center;
+  background-color: #3533A1;
+  padding: 0 0 0 120px;
+}
+.header .header__container .header__name {
+  font-size: 50px;
+  color: white;
+  margin-right: 77px;
+  padding: 27px 0;
+}
+.header .header__container .header__navigation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header .header__container .header__navigation * {
+  font-size: 25px;
+}
+.header .header__container .header__navigation .navigation__search {
+  width: 538px;
+}
+.header .header__container .header__navigation .navigation__button {
+  width: 260px;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 12px 25px;
+  color: white;
+}
+.header .header__container .header__navigation .big {
+  width: 285px;
+}
+.header .header__container .header__navigation .big2 {
+  width: 320px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.active {
+  background-color: #3533A1 !important;
+}
+
+button {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.main__container {
+  background-color: #1B1B1B;
+  display: flex;
+  flex-direction: column;
+}
+.main__container .main__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  padding-top: 80px;
+  margin-bottom: 31px;
+  gap: 29px;
+}
+.main__container .main__text .text__info, .main__container .main__text .text__name {
+  color: white;
+  font-size: 45px;
+}
+.main__container .main__order {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  gap: 4px;
+  margin-bottom: 25px;
+}
+.main__container .main__order .order__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.main__container .main__order .order__buttons .order__button {
+  font-size: 45px;
+  padding: 23px 11px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+.main__container .main__order .order__list {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  padding: 46px 0 32px 32px;
+  gap: 41px;
+}
+.main__container .main__order .order__list .list__item .item__title, .main__container .main__order .order__list .list__item .item__money {
+  font-size: 30px;
+}

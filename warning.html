@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/css/warning.css">
+    <link rel="stylesheet" href="responsive/laptop/css/warning-laptop.css" media="(max-width: 1919px)">
+    <link rel="stylesheet" href="responsive/small-laptop/css/warning-small-laptop.css" media="(max-width: 1340px)">
+    <link rel="stylesheet" href="responsive/tablet/css/warning-tablet.css" media="(max-width: 900px)">
+    <link rel="stylesheet" href="responsive/mobile/css/warning-mobile.css" media="(max-width: 500px)">
+    <title>Document</title>
+</head>
+<body>
+     <header class="header">
+        <div class="header__container container">
+            <a href="./index.html">
+                <p class="header__name logo__name">SWAGA</p>
+            </a>
+            <div class="header__navigation">
+                <a href="./donate.html"><button class="navigation__button header__hide big2">Пополнение STEAM</button></a>
+                <input type="text" class="navigation__search header__hide" placeholder="поиск по товарам, категориям">
+                <a href="./catalog.html"><button class="navigation__button header__hide big">Каталог</button></a>
+                <button class="navigation__button">Профиль</button>
+            </div>
+            <div class="header__burger">
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container container">
+            <div class="main__warning">
+                <div class="warning__title">Внимание!</div>
+                <div class="warning__text">Мы не сохраняем данные пользователей. Данная версия сайта создана только для демонстрации умений.
+                    Сайт не нацелен на коммерцию. При попытке регистриции данные ни куда не отправляются! 
+                </div>
+                <a href="./login.html"><div class="warning__button">Я осведомлён</div></a>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__info">
+                <div class="footer__contact">
+                    <p class="contact__title title">
+                        Связь с нами
+                    </p>
+                    <ul class="contact__list footer__list">
+                        <a href="#">
+                            <li class="footer__el">
+                                <img src="./img/telegram2.svg" class="el__img" alt="">
+                                <p class="el__text">Поддержка покупателей</p>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="footer__el">
+                                <img src="./img/telegram2.svg" class="el__img" alt="">
+                                <p class="el__text">Сотрудничество</p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footer__about">
+                    <p class="about__title title">
+                        Покупателям
+                    </p>
+                    <ul class="about__list footer__list">
+                        <li class="footer__el">
+                            <a href="#">
+                                <p class="el__text">Часто задаваемые вопросы</p>
+                            </a>
+                        </li>
+                        <li class="footer__el">
+                            <a href="#">
+                                <p class="el__text">Публичная оферта</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__logo">
+                <a href="./index.html">
+                    <p class="logo__name">SWAGA</p>
+                </a>
+                <p class="logo__date">2025</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./burger.js"></script>
+</html>

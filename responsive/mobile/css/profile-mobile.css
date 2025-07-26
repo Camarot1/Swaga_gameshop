@@ -1,0 +1,15 @@
+.hidden {
+  display: none !important;
+}
+
+.main__container .main__text {
+  margin-left: 50px;
+}
+.main__container .main__order .order__buttons .order__button {
+  font-size: 15px;
+  padding: 23px 5px;
+}
+.main__container .main__order .order__buttons .order__list .list__item .item__title,
+.main__container .main__order .order__buttons .order__list .list__item .item__money {
+  font-size: 20px;
+}

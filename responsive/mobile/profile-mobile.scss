@@ -1,0 +1,26 @@
+@import './header-mobile.scss', './footer-mobile.scss';
+
+.main__container {
+    .main__text {
+        margin-left: 50px;
+    }
+
+    .main__order {
+        .order__buttons {
+            .order__button {
+                font-size: 15px;
+                padding: 23px 5px;
+            }
+
+            .order__list {
+                .list__item {
+
+                    .item__title,
+                    .item__money {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

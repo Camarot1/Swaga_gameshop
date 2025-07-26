@@ -1,0 +1,10 @@
+@import './header-tablet.scss', './footer-tablet.scss';
+.main__container{
+    .main__order{
+        .order__buttons{
+            .order__button{
+                font-size:20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+@import './footer.scss', './header.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+li {
+    list-style-type: none;
+}
+
+button {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.main__container{
+    background-color: #1B1B1B;
+    .main__form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+        gap: 30px;
+        .form__title{
+            font-size:45px;
+            color: white;
+        }
+        .form__input{
+            font-size:30px;
+            max-width: 300px;
+        }
+        .form__button{
+            font-size:30px;
+            border:1px white solid;
+            color: black;
+            background-color: white;
+            padding:15px 35px;
+            cursor: pointer;
+        }
+        .form__registration{
+            font-size:25px;
+            color: white;
+        }
+    }
+}
