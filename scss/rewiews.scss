@@ -1,0 +1,70 @@
+@import './footer.scss', './header.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@mixin column{
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    outline: none;
+    background: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.main__container{
+    background-color: #1B1B1B;
+    @include column();
+    .main__title{
+        padding: 60px 0 80px 130px;
+        color:white;
+        font-size:45px;
+    }
+    .main__block{
+        align-self:center;
+        background-color: #3533A1;
+        padding: 45px 140px;
+        margin-bottom: 40px;
+        @include column();
+        gap: 35px;
+        .block__item{
+            @include column();
+            gap: 23px;
+            .item__top{
+                display: flex;
+                justify-content: space-between;
+                gap: 30vw;
+                .top__name, .top__date{
+                    color: white;
+                    font-size:30px;
+                }
+            }
+            .item__bott{
+                display: flex;
+                gap: 21px;
+                .bott__text{
+                    color: white;
+                    font-size:30px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.hidden {
+  display: none !important;
+}
+
+.main__container .main__title {
+  padding: 60px 0 80px 10px;
+  font-size: 33px;
+}
+.main__container .main__block {
+  padding: 45 25px;
+}
+.main__container .main__block .block__item .item__top {
+  gap: 7vw;
+}
+.main__container .main__block .block__item .item__top .top__name, .main__container .main__block .block__item .item__top .top__date {
+  font-size: 20px;
+}
+.main__container .main__block .block__item .item__bott .bott__text {
+  font-size: 20px;
+}

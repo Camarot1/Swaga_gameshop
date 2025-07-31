@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./scss/css/profile.css">
-    <link rel="stylesheet" href="responsive/laptop/css/profile-laptop.css" media="(max-width: 1919px)">
-    <link rel="stylesheet" href="responsive/small-laptop/css/profile-small-laptop.css" media="(max-width: 1340px)">
-    <link rel="stylesheet" href="responsive/tablet/css/profile-tablet.css" media="(max-width: 900px)">
-    <link rel="stylesheet" href="responsive/mobile/css/profile-mobile.css" media="(max-width: 500px)">
-    
+    <link rel="stylesheet" href="./scss/css/rewiews.css">
+    <link rel="stylesheet" href="responsive/laptop/css/rewiews-laptop.css" media="(max-width: 1919px)">
+    <link rel="stylesheet" href="responsive/small-laptop/css/rewiews-small-laptop.css" media="(max-width: 1340px)">
+    <link rel="stylesheet" href="responsive/tablet/css/rewiews-tablet.css" media="(max-width: 900px)">
+    <link rel="stylesheet" href="responsive/mobile/css/rewiews-mobile.css" media="(max-width: 500px)">
     <title>Document</title>
 </head>
-
 <body>
     <header class="header">
         <div class="header__container container">
@@ -36,31 +33,50 @@
     </header>
     <main class="main">
         <div class="main__container container">
-            <div class="main__text">
-                <p class="text__info">Профиль</p>
-                <p class="text__name">NAME USER</p>
-                <p class="text__name">Бонусов: 100</p>
-            </div>
-            <div class="main__order">
-                <div class="order__buttons">
-                    <button class="order__button relevant">Активные</button>
-                    <button class="order__button finished">Выполнено</button>
-                </div>
-                <div class="order__list">
-                    <div class="list__item">
-                        <p class="item__title">Название услуги</p>
-                        <p class="item__money">1000 руб.</p>
+            <h1 class="main__title">
+                Отзывы о SWAGA
+            </h1>
+            <div class="main__block">
+                <div class="block__item">
+                    <div class="item__top">
+                        <p class="top__name">NAME</p>
+                        <p class="top__date">31 июля, 15:03</p>
                     </div>
-                     <div class="list__item">
-                        <p class="item__title">Название услуги</p>
-                        <p class="item__money">1000 руб.</p>
-                    </div>
-                     <div class="list__item">
-                        <p class="item__title">Название услуги</p>
-                        <p class="item__money">1000 руб.</p>
+                    <div class="item__bott">
+                        <img src="./img/likeSmall.svg" class="bott__img" alt="">
+                        <p class="bott__text">Все хорошо! Спасибо!</p>
                     </div>
                 </div>
-
+                <div class="block__item">
+                    <div class="item__top">
+                        <p class="top__name">NAME</p>
+                        <p class="top__date">31 июля, 15:03</p>
+                    </div>
+                    <div class="item__bott">
+                        <img src="./img/likeSmall.svg" class="bott__img" alt="">
+                        <p class="bott__text">Все хорошо! Спасибо!</p>
+                    </div>
+                </div>
+                <div class="block__item">
+                    <div class="item__top">
+                        <p class="top__name">NAME</p>
+                        <p class="top__date">31 июля, 15:03</p>
+                    </div>
+                    <div class="item__bott">
+                        <img src="./img/dislikeSmall.svg" class="bott__img" alt="">
+                        <p class="bott__text">Я остался недоволен.</p>
+                    </div>
+                </div>
+                <div class="block__item">
+                    <div class="item__top">
+                        <p class="top__name">NAME</p>
+                        <p class="top__date">31 июля, 15:03</p>
+                    </div>
+                    <div class="item__bott">
+                        <img src="./img/dislikeSmall.svg" class="bott__img" alt="">
+                        <p class="bott__text">Я остался недоволен.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -114,5 +130,4 @@
     </footer>
 </body>
 <script src="./burger.js"></script>
-<script src="./colorSwap.js" defer></script>
 </html>

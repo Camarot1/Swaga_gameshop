@@ -1,0 +1,24 @@
+@import './header-mobile.scss', './footer-mobile.scss';
+
+.main__container{
+    .main__title{
+        padding: 60px 0 80px 10px;
+        font-size:  33px;
+    }
+    .main__block{
+        padding: 45 25px;
+        .block__item{
+            .item__top{
+                gap: 7vw;
+                .top__name, .top__date{
+                    font-size:20px;
+                }
+            }
+            .item__bott{
+                .bott__text{
+                    font-size:20px;
+                }
+            }
+        }
+    }
+}

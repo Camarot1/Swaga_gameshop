@@ -1,0 +1,15 @@
+@import './header-tablet.scss', './footer-tablet.scss';
+
+.main__container{
+    .main__title{
+        padding: 60px 0 80px 30px;
+    }
+    .main__block{
+        padding: 45px;
+        .block__item{
+             .item__top{
+                gap: 15vw;
+             }
+        }
+    }
+}
